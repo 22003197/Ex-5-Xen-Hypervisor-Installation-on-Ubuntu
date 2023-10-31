@@ -18,13 +18,16 @@ To Install Xen Hypervisor (Para Virtualization) and Virtual Manager on Ubuntu 14
 
 3.	After rebooting just to check if Xen booted with Linux
 
-```sudo xl info
+```
+sudo xl info
 
-sudo apt-get install bridge-utils```
+sudo apt-get install bridge-utils
+```
 
 4.	Open /etc/network/interfaces and change it sudo gedit /etc/network/interfaces and type the following
 
-```auto lo
+```
+auto lo
 iface lo inet loopback
 
 auto xenbr0
@@ -35,7 +38,8 @@ iface eth0 inet manual
 
 Then restart network manager
 
-sudo ifdown eth0 && sudo ifup xenbr0 && sudo ifup eth0```
+sudo ifdown eth0 && sudo ifup xenbr0 && sudo ifup eth0
+```
 
 5.	Now install Virtual Machine Manager
 
