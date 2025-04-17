@@ -1,4 +1,4 @@
-# Ex-5-Xen-Hypervisor-Installation-on-Ubuntu
+# Ex-5-Virtualization-Xen-Hypervisor
 
 ## Aim:
 
